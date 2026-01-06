@@ -11,10 +11,31 @@
 
 # Organization
 
+## Skills
 - Farming
 - Foraging
 - Fishing
-- Friendship
 - Mining
 - Combat
-- The Valley
+- Mastery
+
+## The Farm
+- Crafting
+- Cooking
+- Artisan goods
+- Item farming
+- Profit margins
+
+## The Valley
+- Friendship
+- Quests
+- Secrets
+- Treasures
+- The Desert
+- Ginger Island
+
+## Year One
+- Spring
+- Summer
+- Fall
+- Winter
