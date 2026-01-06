@@ -1,0 +1,4 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'LaTeX_RefSheet.blg'
+[34] biber:342> INFO - === Tue Jan  6, 2026, 10:18:03
+[42] Biber.pm:421> INFO - Reading 'LaTeX_RefSheet.bcf'
