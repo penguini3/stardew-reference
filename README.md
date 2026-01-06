@@ -1,1 +1,1 @@
-Repository for my personal Stardew Valley reference sheet. Based on the [LaTeX Refsheet](https://tug.ctan.org/info/latex-refsheet/) off of CTAN by Marion Lammarsch and Elke Schubert, with information from the [Stardew Valley Wiki]. 
+Repository for my personal Stardew Valley reference sheet. Based on the [LaTeX Refsheet](https://tug.ctan.org/info/latex-refsheet/) off of CTAN by Marion Lammarsch and Elke Schubert, with information from the [Stardew Valley Wiki](https://www.stardewvalleywiki.com/Stardew_Valley_Wiki. 
