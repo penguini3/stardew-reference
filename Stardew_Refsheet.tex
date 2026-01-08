@@ -1,13 +1,4 @@
-% !TeX spellcheck = en_US
-%% Version 1.2, August 2017
-%% This Reference Sheet is free under the terms and conditions of the \LaTeX{} Project Public License Version 1.3c. 
-%% Authors: Marion Lammarsch, University of Heidelberg, and Elke Schubert, Stutensee
-%%% Fix for warnings
-  \RequirePackage{silence}
-  \WarningsOff*
-%  
-
-\documentclass[fontsize=6pt,paper=a4,paper=landscape,twoside=false,parskip=half,
+\documentclass[fontsize=6pt,paper=letter,paper=landscape,twoside=false,parskip=half,
 headings=small,numbers=withenddot,usegeometry=true,english]{scrartcl}
 
 \usepackage[utf8]{inputenc}
@@ -20,13 +11,15 @@ headings=small,numbers=withenddot,usegeometry=true,english]{scrartcl}
 
 \usepackage[table]{xcolor}
 \usepackage{graphicx}
+\usepackage{array}
 \arrayrulecolor{gray!60}
 \usepackage{geometry}
-\geometry{paper=a4paper,landscape, left=6mm,right=6mm, top=8mm,bottom=4mm}
+\geometry{paper=a4paper,landscape,left=6mm,right=6mm,top=8mm,bottom=4mm}
 \pagestyle{empty}
 
-\usepackage{tabulary}
+\usepackage{tabularx}
 \usepackage{multicol}
+\usepackage{multirow}
 \usepackage{booktabs}
 \usepackage{microtype}
 \usepackage{pdfpages}
@@ -68,27 +61,6 @@ headings=small,numbers=withenddot,usegeometry=true,english]{scrartcl}
 % make boxes robust for verbatim
 \let\oldsectionbox\sectionbox
 \outer\def\sectionbox{\icprotect\oldsectionbox}
-
-% Hyperref ======================
-\usepackage{hyperref}
-\renewcommand{\subsectionautorefname}{section}
-
-\definecolor{darkblue}{RGB}{0, 82, 147}		
-\hypersetup{
-	pdfcreator={LaTeX2e},
-	pdfborder=0 0 0,
-	breaklinks=true,
-	bookmarksopen=true,
-	bookmarksnumbered=true,
-	linkcolor=darkblue,
-	urlcolor=darkblue,
-	citecolor=darkblue,
-	colorlinks=true,
-	pdfauthor=Marion Lammarsch, 
-	pdftitle=LaTeX Cheat Sheet,
-	pdfcreator=LaTeX2e 
-}
-\urlstyle{sf}
 
 % Source Code Listings ============
 \usepackage{listings}
@@ -144,8 +116,8 @@ headings=small,numbers=withenddot,usegeometry=true,english]{scrartcl}
 % DOCUMENT_BEGIN ===============================================================
 \begin{document}
 
-% Split into 4 columns ===========================================================
-\begin{multicols}{4}
+% Split into 3 columns ===========================================================
+\begin{multicols}{2}
 
 \parbox{\columnwidth}{
 \centering\Large\color{violet}Stardew Valley Reference
@@ -169,7 +141,28 @@ Won't mention mods. Maybe a separate sheet?
 
 \sectionbox{
 \subsection{Farming}
-  Insert information here :)
+\subsubsection{Professions}
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\multicolumn{2}{|c|}{Rancher - Animal products are worth 20\% more.} \\ 
+\hline
+Coopmaster - +33\% profits on coop products. Befriend and incubate coop animals faster. & Shepherd - +33\% profits on barn products. Befriend and incubate barn animals faster.\\  
+\hline
+\hline
+\multicolumn{2}{|c|}{Tiller - Crops are worth 10\% more.} \\
+\hline
+Artisan - Artisan goods are worth 40\% more. & Agriculturalist - Crops grow 10\% faster. \\
+\hline
+\end{tabularx}
+\subsubsection{Experience}
+\begin{itemize}
+\item 
+  Crop experience scales with base sell price
+\item
+  Animal actions give a flat 5 experience
+\end{itemize}
+\subsubsection{Food Bonuses}
+\subsubsection{Mastery}
 }
 
 \sectionbox{
@@ -193,11 +186,6 @@ Won't mention mods. Maybe a separate sheet?
   Insert information here :)
 }
 
-\sectionbox{
-\subsection{Mastery}
-  Insert information here :)
-}
-
 % SECTION ====================================================================================
 \section{The Farm}
 % ============================================================================================
@@ -217,11 +205,16 @@ Won't mention mods. Maybe a separate sheet?
   Insert information here :)
 }
 \sectionbox{
+\subsection{Machines}
+  Insert information here :)
+}
+\sectionbox{
+
 \subsection{Items}
   Insert information here :)
 }
 \sectionbox{
-\subsection{Profit Margins}
+\subsection{Money}
   Insert information here :)
 }
 

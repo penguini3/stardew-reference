@@ -12,6 +12,12 @@
 # Organization
 
 ## Skills
+
+- For each skill:
+    - Perk trees
+    - Grinding strat (if there is one)
+    - Mastery
+    - Food bonuses
 - Farming
 - Foraging
 - Fishing
@@ -23,13 +29,15 @@
 - Crafting
 - Cooking
 - Artisan goods
-- Item farming
-- Profit margins
+- Machines
+- Items
+- Money
 
 ## The Valley
+- Community Center
 - Friendship
 - Quests
-- Secrets
+- Secretslaunchpad mcquack scott pilgrim
 - Treasures
 - The Desert
 - Ginger Island
